@@ -1,3 +1,44 @@
 body{
     margin: 0;
+    background-color: lightgray;
+    font-family: sans-serif;
+}
+
+h1, h2 {
+    color: red;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: ;
+    height: 200px;
+    border: dashed red;
+}
+
+nav{
+    margin-top: 40px;
+
+}
+
+aside{
+    display: absolute;
+    left: 0;
+    height: 100vh;
+    width: 300px;
+    background-color: grey;
+}
+
+section{
+    position: relative;
+}
+
+footer{
+    position: absolute;
+    left: 300px;
+}
+
+button{
+    border: solid red;
+    background-color: grey;
 }
